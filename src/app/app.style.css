@@ -1,0 +1,70 @@
+.bg-blue222{
+  background-color: #003146!important;
+}
+
+
+.html { background-color: rgb(180, 218, 233);
+  height: 2000px;
+ }
+
+
+.color-me-whitesmoke{
+  color:whitesmoke;
+}
+
+.newMargin{
+  margin-left: 50px;
+}
+
+.color-me-important{
+  color:#245063;
+}
+
+.bottomMargin{
+  margin-bottom: 3rem;
+}
+
+.navbar-brand-whitesmoke {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color:rgb(231, 235, 255);
+}
+
+.half-height{
+  height: 500px;
+}
+
+.three-hight{
+  height: 300px;
+}
+
+.BottomBorder1 {
+  border-bottom: 1px solid #003146;
+  width:100%;
+}
+
+.div_hover:hover {  
+box-shadow: 0 10px 10px 0 rgb(2, 77, 80);
+transition: 0.3s; 
+}
+
+.div_hover2:hover {  
+  background-color: #003146;
+}
+
+.div_hover2 {  
+  background-color: #fff;
+}
+
+.list-group-item2 {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+

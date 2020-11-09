@@ -1,0 +1,52 @@
+[
+    {
+        "question":"Q.1: cin’ is an __?",
+        "options":["Class","Object","Package","Namespace"],
+        "answer":"Object"
+    },
+    {
+        "question":"Q.2: A protected member of the class in accessible in",
+        "options":["Only same class","Same class and derived class","Outside the class","None of the above."],
+        "answer":"Same class and derived class"
+    },
+    {
+        "question":"Q.3: How can we make an class act as an interface in C++?",
+        "options":["By only providing all the functions as virtual functions in the class.","Defining the class following with the keyword virtual","Defining the class following with the keyword interface","Defining the class following with the keyword abstract"],
+        "answer":"By only providing all the functions as virtual functions in the class."
+    },
+    {
+        "question":"Q.4: Which operator is used to resolve the scope of the global variable?",
+        "options":["−>","- .","- *","- ::"],
+        "answer":"- ::"
+    },
+    {
+        "question":"Q.5: Which type of data file is analogous to an audio cassette tape?",
+        "options":["Random access file","Sequential access file","Binary file","Source code file"],
+        "answer":"Sequential access file"
+    },
+    {
+        "question":"Q.6: Which special character is used to mark the end of class?",
+        "options":[";",":","#","$"],
+        "answer":";"
+    },
+    {
+        "question":"Q.7: What is the built in library function to compare two strings?",
+        "options":["tring_cmp()","trcmp()","equals()","str_compare()"],
+        "answer":"rcmp()"
+    },
+    {
+        "question":"Q.8: Which member function of a class can’t modify its objects attributes?",
+        "options":["Static member functions","Constant member functions","Private member functions","friend functions"],
+        "answer":"Constant member functions"
+    },
+    {
+        "question":"Q.9: Which of the following statements is incorrect?",
+        "options":["None","Variables having visibility may not have any scope.","Variables having scope may not be visible.","Variable has scope & visibility."],
+        "answer":"Variables having visibility may not have any scope."   
+    },
+    {
+        "question":"Q.10: Which of the following parameter passing mechanism is/are supported by C++ but not in C?",
+        "options":[" All","Pass by reference","Pass by value","Pass by address"],
+        "answer":"Pass by reference"
+    }
+]

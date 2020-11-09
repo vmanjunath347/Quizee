@@ -1,0 +1,77 @@
+<div class="container-fluid2">
+    <div class="displayTable">
+        <div class="displayTableRow bottomMargin">
+            <div class="displayTableCell1">
+                <h2>Questions</h2>
+            </div>
+
+            <div class="displayTableCell2">
+                <button type="button" class="btn btn-primary divbutton" data-toggle="modal" data-target="#myModal" (click)="resetPoints()" (click)="calculatePoints()">Submit</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Review and Result</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>You have Scored {{totalPoints}} out of {{maxPoints}} Points.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button data-dismiss="modal" class="btn btn-default" routerLink="cquiz">Retry</button>
+                                <button data-dismiss="modal" class="btn btn-default" routerLink="">Home</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="displayTableRow">
+            <div class="displayTableCell1 col-sm-6 col-md-6">
+                <ul class="list-group ex1Scroller">
+                    <li (click)="changeQuestion(element.question)" *ngFor="let element of quizQuestions"
+                        class="list-group-item  div_hover2">{{element.question}}
+                    </li>
+                </ul>
+            </div>
+            <div class="displayTableCell2 col-sm-6 col-md-6 ex1Scroller2">
+                <p>{{question}}</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" (change)="onItemChange($event.target.value)">
+                    <label class="form-check-label" for="exampleRadios1">
+                        {{options[0]}}
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2" (change)="onItemChange($event.target.value)">
+                    <label class="form-check-label" for="exampleRadios2">
+                        {{options[1]}}
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        value="option3" (change)="onItemChange($event.target.value)">
+                    <label class="form-check-label" for="exampleRadios3">
+                        {{options[2]}}
+                    </label>
+                </div>
+                <div class="form-check bottomMargin">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4"
+                        value="option4" (change)="onItemChange($event.target.value)">
+                    <label class="form-check-label" for="exampleRadios4">
+                        {{options[3]}}
+                    </label>
+                </div>
+                <button (click)="noteAnswer()">
+                    Confirm
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
