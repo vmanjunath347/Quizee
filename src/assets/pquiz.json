@@ -1,0 +1,52 @@
+[
+    {
+        "question":"Q.1: What is output for −\na = ['hat', 'mat', 'rat']\n'rhyme'.join(a)",
+        "options":["[‘hat’,’mat’,’rat’,’rhyme’]","‘hatmatratrhyme’","[‘hat mat rat rhyme’]","‘hatrhymematrhyme rat’"],
+        "answer":"‘hatrhymematrhyme rat’"
+    },
+    {
+        "question":"Q.2: What is output of following code −\nx = 2\ny = 10\nx * = y * x + 1",
+        "options":["42","41","40","39"],
+        "answer":"42"
+    },
+    {
+        "question":"Q.3: Select the option for following code −\ns = 0\nfor d in range(0, 5, 0.1):\n… s += d\n… print(s)",
+        "options":["Syntax Error","Type Error","Runtime Error","Both b & c"],
+        "answer":"Both b & c"
+    },
+    {
+        "question":"Q.4: Suppose we have a set a = {10,9,8,7}, and we execute a.remove(14) what will happen ?",
+        "options":["We cannot remove an element from set.","Method is executed but no exception is raised.","Key error is raised.","There doesn’t exist such method as remove."],
+        "answer":"Key error is raised."
+    },
+    {
+        "question":"Q.5: What will be the output of the following code?\ndef total(initial = 5, *num, **key):\ncount = initial\nfor n in num:\ncount+=n\nfor k in key:\ncount+=key[k]\nreturn count\n print(total(100,2,3, clouds=50, stars=100))",
+        "options":["260","260","155","255"],
+        "answer":"255"
+    },
+    {
+        "question":"Q.6: Which of the following is more accurate for the following declaration?\nx = Circle()",
+        "options":["Now you can assign int value to x.","x contains a reference to a Circle object.","x actually contains an object of type Circle.","x contains an int value."],
+        "answer":"x contains a reference to a Circle object."
+    },
+    {
+        "question":"Q.7: Which among them is incorrect for set s={100,101,102,103}",
+        "options":["Len(s)","Sum(s)","Print(s[3])","Max(s)"],
+        "answer":"Print(s[3])"
+    },
+    {
+        "question":"Q.8: Which code can be used as an input dialog named 'Is this a character? '",
+        "options":["Tkinter.messagebox.showinfo(''showinfo'' , ''Is this a character? '')","Tkinter.messagebox.askyesno(''askyesno'' , ''Is this a character? '')","Tkinter.messagebox.showerror(''showerror'' , ''Is this a character? '')","Tkinter.messagebox.showwarning(''showwarning'' , ' 'Is this a character? '')"],
+        "answer":"Tkinter.messagebox.askyesno(''askyesno'' , ''Is this a character? '')"
+    },
+    {
+        "question":"Q.9: What will be the output of the following code?\nprint(type(1/2))",
+        "options":["<class 'float'>","<class 'int'>","NameError: ‘½’ is not defined.","0.5"],
+        "answer":"<class 'float'>"
+    },
+    {
+        "question":"Q.10: What is the output for −\nS = [['him', 'sell'], [90, 28, 43]]\nS[0][1][1]",
+        "options":["e","i","90","h"],
+        "answer":"e"
+    }
+]

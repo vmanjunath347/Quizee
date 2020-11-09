@@ -1,0 +1,53 @@
+[
+    {
+        "question":"Q.1: Within Java, you need to code your program so that under certain conditions it will skip the current iteration of a for loop. What can be used to accomplish this?",
+        "options":["jump","swipe","continue","skip"],
+        "answer":"continue"
+    },
+    {
+        "question":"Q.2: Which company now owns Java?",
+        "options":["Apache Software Foundation","SAP","Oracle Corporation","PeopleSoft Inc."],
+        "answer":"Oracle Corporation"
+    },
+    {
+        "question":"Q.3: Within Java, each call to StdOut.println () does which of the following?",
+        "options":["Appends text to the end of the file","Prints the contents of the current file","Reads and then prints the contents of the current file","Overwrites the current contents of the file"],
+        "answer":"Appends text to the end of the file"
+    },
+    {
+        "question":"At this point in time, which of the following is the officially supported version of Java?",
+        "options":["Java 8","Java 7","Java 9","Java 6"],
+        "answer":"Java 8"
+    },
+    {
+        "question":"Q.5: Which of the following individuals is credited for first designing Java?",
+        "options":["Tim Ritchey","Jim LeValley","James Gosling","Ian Sheeler"],
+        "answer":"James Gosling"
+    },
+    {
+        "question":"Q.6: Which keyword keeps the main method from returning any value to the caller?",
+        "options":["void","concealed","restricted","exclusive"],
+        "answer":"void"
+    },
+    {
+        "question":"Q.7: You need to reference a value stored in an array named B in row 7 column 3. Which syntax is correct within Java for finding the value of this variable?",
+        "options":["B[7][3]","B[7,3]","B[3,7]","B[3][7]"],
+        "answer":"B[7][3]"
+    },
+    {
+        "question":"Q.8: According to Boolean operations, if !g is true, then which of the following applies?",
+        "options":["If g is true, and true otherwise","If g is false, and true otherwise","If g is true, and false otherwise","If g is false, and false otherwise"],
+        "answer":"If g is true, and false otherwise"
+    },
+    {
+        "question":"Q.9: You are having a problem with the “if” logic in your code and need to utilize case conditions to create a number of possible execution paths. Which statement is necessary to accomplish this?",
+        "options":["instance","swap","switch","task"],
+        "answer":"swap"
+    },
+    {
+
+        "question":"Q.10: Which keyword keeps the main method from returning any value to the caller?",
+        "options":["void","concealed","restricted","exclusive"],
+        "answer":"void"
+    }
+]

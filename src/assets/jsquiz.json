@@ -1,0 +1,52 @@
+[
+    {
+        "question":"Q.1: Which of the following is true about variable naming conventions in JavaScript?",
+        "options":["JavaScript variable names must begin with a letter or the underscore character.","JavaScript variable names are case sensitive.","Both of the above.","None of the above."],
+        "answer":"Both of the above."
+    },
+    {
+        "question":"Q.2: Which of the following is a valid type of function javascript supports?",
+        "options":["named function","anonymous function","Both of the above.","None of the above."],
+        "answer":"Both of the above."
+    },
+    {
+        "question":"Q.3: Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
+        "options":["last()","put()","push()","None of the above."],
+        "answer":"push()"
+    },
+    {
+        "question":"Q.4: Which built-in method returns the calling string value converted to lower case?",
+        "options":["toLowerCase()","toLower()","changeCase(case)","None of the above."],
+        "answer":"toLowerCase()"
+    },
+    {
+        "question":"Q.5: Which of the following function of Boolean object returns a string containing the source of the Boolean object?",
+        "options":["toSource()","valueOf()","toString()","None of the above."],
+        "answer":"toSource()"
+    },
+    {
+        "question":"Q.6: Which of the following function of String object extracts a section of a string and returns a new string?",
+        "options":["slice()","split()","replace()","search()"],
+        "answer":"slice()"
+    },
+    {
+        "question":"Q.7: Which of the following function of String object creates a string to blink as if it were in a <blink> tag?",
+        "options":["anchor()"," big()","blink()","italics()"],
+        "answer":"blink()"
+    },
+    {
+        "question":"Q.8: Which of the following function of Array object returns a new array comprised of this array joined with other array(s) and/or value(s)?",
+        "options":["concat()","pop()","push()","some()"],
+        "answer":"concat()"
+    },
+    {
+        "question":"Q.9: Which of the following function of Array object calls a function for each element in the array?",
+        "options":["concat()","every()","filter()","forEach()"],
+        "answer":"Object"
+    },
+    {
+        "question":"Q.10: Which of the following function of Array object removes the first element from an array and returns that element?",
+        "options":["reverse()","shift()","slice()","some()"],
+        "answer":"shift()"
+    }
+]

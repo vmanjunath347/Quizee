@@ -15,11 +15,6 @@ export class CquizComponent implements OnInit {
   public toggle = true;
   public status = 'Enable'; 
   public hoverclass:string;  
-
-  /*public option1:boolean;
-  public option2:boolean;
-  public option3:boolean;
-  public option4:boolean;*/
   public totalPoints:number;
   public maxPoints:number;
   public value:string;
